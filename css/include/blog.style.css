@@ -1,0 +1,140 @@
+/*============================================================== BLOG =====================================================================*/
+
+.search-box h3 {
+  margin: 0px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f31515;
+}
+
+#search {
+  height: 40px;
+  text-align: left;
+  color: black;
+  border: 1px solid #f31515;
+  margin-bottom: 10px;
+}
+
+.abt h3 {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 29px;
+  color: #f31515;
+}
+
+.abt p {
+  color: #2d2d2d;
+  font-size: 17px;
+  line-height: 23px;
+  margin-top: 10px;
+}
+.abt img {
+  width: 100%;
+  margin-top: 10px;
+}
+.category {
+  margin-top: 30px;
+}
+.category h3 {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 29px;
+  color: #f31515;
+}
+.category ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.category ul li {
+  list-style: none;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 7px 2px;
+}
+
+.category ul li a {
+  font-size: 16px;
+  color: #575757;
+}
+
+.category ul li a:hover {
+  color: #f31515;
+  text-decoration: none;
+}
+.no-border {
+  border-bottom: 0px solid white;
+}
+.tag {
+  margin-top: 30px;
+}
+.tag h3 {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 29px;
+  color: #f31515;
+}
+.tag ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.tag ul li {
+  list-style: none;
+  padding: 10px 0px;
+  float: left;
+  margin-right: 10px;
+}
+
+.tag ul li a {
+  font-size: 16px;
+  color: white;
+  background-color: #f31515;
+  padding: 5px 10px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.tag ul li a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.pagination {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.pagination ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 0px;
+}
+.pagination ul li {
+  list-style: none;
+  padding: 0px 0px;
+  float: left;
+  margin-right: 10px;
+}
+
+.pagination ul li a {
+  font-size: 16px;
+  color: white;
+  background-color: #f31515;
+  border: 1px solid #f31515;
+  padding: 5px 10px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.pagination ul li a:hover {
+  color: #f31515;
+  text-decoration: none;
+  background-color: transparent;
+}

@@ -1,0 +1,217 @@
+/*=============================================================== RESPONSIVE ======================================================*/
+
+@media screen and (max-width: 992px) {
+  .navbar-custom > .container {
+    position: relative;
+  }
+  .navbar-custom button.navbar-toggler.collapsed {
+    position: absolute;
+    right: 0.75rem;
+    top: 0;
+  }
+  .navbar-custom .navbar-collapse {
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+  }
+  .navbar-custom.sticky .navbar-collapse {
+    background-color: transparent;
+  }
+  /* about */
+  .about-details {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .single-coutnerup {
+    margin: 30px 0;
+  }
+  .day-text {
+    margin: 5%;
+  }
+  .contact-container {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .custom_input {
+    width: 100%;
+}
+.crativity-img img{
+    height:150px;
+}
+/*.float{*/
+/*    right:70px;*/
+/*}*/
+  
+}
+/*@media screen and (min-width: 760px) and (max-width: 950px) {*/
+/*    .float_whatsapp{*/
+/*        right:123px !important;*/
+/*}*/
+/*}*/
+@media screen and (max-width: 767px) {
+  .navbar-custom > .container {
+    position: relative;
+  }
+  .navbar-custom button.navbar-toggler.collapsed {
+    position: absolute;
+    right: 0.75rem;
+    top: 0;
+  }
+  .navbar-custom .navbar-collapse {
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+  }
+  .navbar-custom.sticky .navbar-collapse {
+    background-color: transparent;
+  }
+  /* banner */
+  h2.section-heading {
+    font-size: 40px;
+  }
+  .home-text h2.section-heading {
+    font-size: 40px;
+  }
+  .home-text h2.section-heading span.cd-words-wrapper {
+    font-size: 40px;
+  }
+  /* about */
+  .about-details {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .day-text {
+    margin: 5%;
+  }
+  .contact-container {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-custom > .container {
+    position: relative;
+  }
+  .navbar-custom button.navbar-toggler.collapsed {
+    position: absolute;
+    right: 0.75rem;
+    top: 0;
+  }
+  .navbar-custom .navbar-collapse {
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+  }
+  .navbar-custom.sticky .navbar-collapse {
+    background-color: transparent;
+  }
+  /* section-heading */
+  h2.section-heading {
+    font-size: 30px;
+  }
+  .home-text h2.section-heading {
+    font-size: 30px;
+  }
+  .home-text h2.section-heading span.cd-words-wrapper {
+    font-size: 30px;
+  }
+  /* about */
+  .about-details {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  /* count */
+  .single-coutnerup {
+    margin: 15px 0;
+  }
+
+  /* details */
+  .details-container .nav-tabs > li > a,
+  #filters li span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* day-text  */
+
+  .day-text {
+    margin: 5%;
+  }
+  .contact-container {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-custom > .container {
+    position: relative;
+  }
+  .navbar-custom button.navbar-toggler.collapsed {
+    position: absolute;
+    right: 0.75rem;
+    top: 0;
+  }
+  .navbar-custom .navbar-collapse {
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+  }
+  .navbar-custom.sticky .navbar-collapse {
+    background-color: transparent;
+  }
+  /* section-heading */
+  h2.section-heading {
+    font-size: 30px;
+  }
+  .home-text h2.section-heading {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .contact-form{
+    display: contents;
+  }
+   .contact-form1{
+    display: none;
+  }
+  .section-container{
+      display:none;
+  }
+  
+  
+  .home-text h2.section-heading span.cd-words-wrapper {
+    font-size: 30px;
+  }
+  /* about */
+  .about-details {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  /* count */
+  .single-coutnerup {
+    margin: 15px 0;
+  }
+
+  /* details */
+  .details-container .nav-tabs > li > a,
+  #filters li span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* day-text  */
+  .day-text {
+    margin: 5%;
+  }
+  .contact-container {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .home-slider {
+    height: 40vh;
+  }
+  #home {
+    min-height: 40vh;
+  }
+}
